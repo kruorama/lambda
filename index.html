@@ -4,13 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Yeseva+One" >
+  <link rel="stylesheet" href="css/style.css">
+
   <title>Lambda</title>
 </head>
 <body>
   <header class="header-page">
+    <div class="container">
     <nav class="nav-page">
       <a href="" class="nav-logo"><img src="img/nav-logo.png" class='nav-logo' alt="Lambda"></a>
-      <ul class="site-nav">
+      <ul class="nav-list flex flex-wrap justify-center">
         <li><a href="#" class="site-nav-link">Home</a></li>
         <li><a href="#" class="site-nav-link">About</a></li>
         <li><a href="#" class="site-nav-link">Ingredients</a></li>
@@ -22,44 +26,51 @@
         <li><a href="#" ><img src="img/nav-facebook.png" class='nav-social' alt="Facebook"></a></li>
       </ul>
     </nav>
-    <section class="hero">
-      <h1 class="slogan">the right ingredients for the right food</h1>
-      <ul class="hero-button-group">
-        <li><a href="#" class="primary-button">Book a table</a></li>
-        <li><a href="#" class="secondary-button">See the menu</a></li>
-      </ul>
+    </div>
+    <section class="hero cover">
+      <div class="container">
+        <h1 class="slogan">the right ingredients for the right food</h1>
+        <ul class="hero-button-group">
+          <li><a href="#" class="button primary-button">Book a table</a></li>
+          <li><a href="#" class="button secondary-button">See the menu</a></li>
+        </ul>
+      </div>
     </section>
+
   </header>
 
-  <main>
-  <section class="right-food">
-    <h2>Just the right food</h2>
-    <p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!</p>
-    <img src="img/right-food-cook.png" alt="Cook working on a dish and his authograph">
-  </section>
-  <section class="fine-ingredients">
-    <h2>Fine ingredients</h2>
-    <p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!</p>
+  <main class="main-page">
+  <section class="right-food repeat">
+    <div class="container">
+      <h2>Just the right food</h2>
+      <p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!</p>
+      <img src="img/right-food-cook.png" alt="Cook working on a dish and his authograph">
+    </section>
+
+  <section class="fine-ingredients cover">
+    <div class="container">
+      <h2>Fine ingredients</h2>
+      <p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!</p>
+    </div>
   </section>
 
-  <section class="menu">
+  <section class="menu repeat">
+    <div class="container">
+    <h2 class="visually-hidden">Menu</h2>
     <ul>
       <li>
         <h3>Appetisers</h3>
         <ul>
           <li>
-            <h4>Tsatsiki</h4>
-            <span class="price">$3.99</span>
+            <h4>Tsatsiki <span class="price">$3.99</span></h4>
             <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
           </li>
           <li>
-            <h4>Aubergine_Salad</h4>
-            <span class="price">$5.50</span>
+            <h4>Aubergine Salad <span class="price">$5.50</span></h4>
             <p>Pureed eggplant, garlic, green pepper and tomato dip.</p>
           </li>
           <li>
-            <h4>Aubergine_Salad</h4>
-            <span class="price">$5.50</span>
+            <h4>Aubergine Salad <span class="price">$5.50</span></h4>
             <p>Pureed eggplant, garlic, green pepper and tomato dip.</p>
           </li>
         </ul>
@@ -68,13 +79,11 @@
         <h3>Starters</h3>
         <ul>
           <li>
-            <h4>Haloumi</h4>
-            <span class="price">$3.99</span>
+            <h4>Haloumi <span class="price">$5.50</span></h4>
             <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
           </li>
           <li>
-            <h4>Spinach Pie</h4>
-            <span class="price">$3.99</span>
+            <h4>Spinach Pie <span class="price">$5.50</span></h4>
             <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
           </li>
         </ul>
@@ -83,18 +92,15 @@
         <h3>Salads</h3>
         <ul>
           <li>
-            <h4>Olive Special</h4>
-            <span class="price">$3.99</span>
+            <h4>Olive Special <span class="price">$5.50</span></h4>
             <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
           </li>
           <li class="special">
-            <h4>Greek Salad</h4>
-            <span class="price">$3.99</span>
+            <h4>Greek Salad <span class="price">$5.50</span></h4>
             <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
           </li>
           <li>
-            <h4>Gusto Salad</h4>
-            <span class="price">$3.99</span>
+            <h4>Gusto Salad <span class="price">$5.50</span></h4>
             <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
           </li>
         </ul>
@@ -103,35 +109,35 @@
         <h3>Main dishes</h3>
         <ul>
           <li>
-            <h4>Cornish Mackerel</h4>
-            <span class="price">$3.99</span>
+            <h4>Cornish Mackerel <span class="price">$15.50</span></h4>
             <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
           </li>
           <li>
-            <h4 class = "special">Roast Lamb</h4>
-            <span class="price">$3.99</span>
+            <h4 class = "special">Roast Lamb <span class="price">$15.50</span></h4>
             <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
           </li>
           <li>
-            <h4>Fried Chicken</h4>
-            <span class="price">$3.99</span>
+            <h4>Fried Chicken <span class="price">$15.50</span></h4>
             <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
           </li>
           <li>
-            <h4>Pastitsio</h4>
-            <span class="price">$3.99</span>
+            <h4>Pastitsio <span class="price">$15.50</span></h4>
             <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
           </li>
         </ul>
       </li>
     </ul>
+  </div>
   </section>
-  <section class="guest-reviews">
-    <h2>Guest reviews</h2>
-    <p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!</p>
-    <p class="reference">- food inc, New York</p>
+  <section class="guest-reviews cover">
+    <div class="container">
+      <h2>Guest reviews</h2>
+      <blockquote>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!</blockquote>
+      <p class="reference">- food inc, New York</p>
+    </div>
   </section>
-  <section class="reservation">
+  <section class="reservation repeat">
+    <div class="container">
     <h2>Just the right food</h2>
     <p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food. </p>
     <p>Delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out! Perfect materials and freshly baked food.</p>
@@ -146,34 +152,37 @@
       <input id="party-number" type="number" placeholder="Party number">
       <button>Book now!</button>
     </form>
+    </div>
   </section>
   </main>
 
-  <footer>
-    <ul>
-      <li>
-        <h3>About us</h3>
-        <p>Lambda's new and expanded Chelsea location represents a truly authentic Greek patisserie, featuring breakfasts of fresh croissants and steaming bowls of café.</p>
-        <p>Lamda the best restaurant in town</p>
-      </li>
-      <li>
-        <h3>Opening hours</h3>
-        <p><b>Mon-Thu:</b> 7:00am-8:00pm</p>
-        <p><b>Fri-Sun:</b> 7:00am-10:00pm</p>
-        <img src="img/footer-cards" alt="Accepted payment methods: American Express, PayPal, Visa, MasterCard">
-      </li>
-      <li>
-        <h3>Our location</h3>
-        <p class="footer-address">19th Paradise Street Sitia</p>
-        <p class="footer-address">128 Meserole Avenue</p>
-        <ul>
-          <li><a href="#"><img src="img/footer-facebook.png" class="footer-social" alt="Facebook"></a></li>
-          <li><a href="#"><img src="img/footer-youtube.png"  class="footer-social" alt="Youtube"></a></li>
-          <li><a href="#"><img src="img/footer-twitter.png" class="footer-social" alt="Twitter"></a></li>
-          <li><a href="#"><img src="img/footer-trello.png" class="footer-social" alt="Trello"></a></li>
-        </ul>
-      </li>
-    </ul>
+  <footer class="footer">
+    <div class="container">
+      <ul>
+        <li>
+          <h3>About us</h3>
+          <p>Lambda's new and expanded Chelsea location represents a truly authentic Greek patisserie, featuring breakfasts of fresh croissants and steaming bowls of café.</p>
+          <p>Lamda the best restaurant in town</p>
+        </li>
+        <li>
+          <h3>Opening hours</h3>
+          <p><b>Mon-Thu:</b> 7:00am-8:00pm</p>
+          <p><b>Fri-Sun:</b> 7:00am-10:00pm</p>
+          <img src="img/footer-cards.png" alt="Accepted payment methods: American Express, PayPal, Visa, MasterCard">
+        </li>
+        <li>
+          <h3>Our location</h3>
+          <p class="footer-address">19th Paradise Street Sitia</p>
+          <p class="footer-address">128 Meserole Avenue</p>
+          <ul>
+            <li><a href="#"><img src="img/footer-facebook.png" class="footer-social" alt="Facebook"></a></li>
+            <li><a href="#"><img src="img/footer-youtube.png"  class="footer-social" alt="Youtube"></a></li>
+            <li><a href="#"><img src="img/footer-twitter.png" class="footer-social" alt="Twitter"></a></li>
+            <li><a href="#"><img src="img/footer-trello.png" class="footer-social" alt="Trello"></a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
   </footer>
 
 </body>

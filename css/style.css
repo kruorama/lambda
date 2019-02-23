@@ -1,0 +1,131 @@
+/* font-family: 'Yeseva One', cursive;
+font-family: 'Lato', sans-serif; */
+:root {
+  --gold: #cb9822;
+}
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.visually-hidden { /* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility */
+    position: absolute !important;
+    height: 1px; width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+
+}
+
+ul {
+  padding-left: 0px;
+  list-style-type: none;
+
+}
+
+.container {
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5vw;
+}
+
+.cover {
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.repeat {
+  width: 100vw;
+  background-size: auto;
+  background-repeat: repeat;
+  background-position: center;
+}
+
+.slogan {
+  font-family: 'Yeseva One', cursive;
+  font-weight: 100;
+  color: white;
+  font-size: 90px;
+}
+.button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px;
+  margin: 10px;
+  text-transform: uppercase;
+}
+.primary-button {
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.secondary-button {
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+}
+
+/* SECTIONS */
+.hero {
+  background-color: black;
+  color: white;
+  background-image: url(../img/hero-bg.jpg);
+}
+
+.right-food, .reservation {
+  background-color: white;
+  background-image: url(../img/right-food-pattern.jpg);
+}
+
+.fine-ingredients {
+  background-color: black;
+  color: white;
+  background-image: url(../img/fine-ingredients-bg.jpg);
+}
+
+.menu {
+  background-color: white;
+  background-image: url(../img/menu-pattern.jpg);
+
+}
+
+.guest-reviews {
+  background-color: black;
+  color: white;
+  background-image: url(../img/guest-reviews-bg.jpg);
+}
+
+.footer {
+  background-color: black;
+  color: white
+}
+
+h2 {
+  font-family: 'Yeseva One', cursive;
+  font-weight: 100;
+  font-size: 36px;
+}
+
+.menu h3 {
+  font-family: 'Yeseva One', cursive;
+  font-weight: 100;
+  font-size: 36px;
+  color: var(--gold)
+}
+
+.menu h4 {
+  font-family: 'Yeseva One', cursive;
+  font-weight: 100;
+  font-size: 21px;
+  color: var(--gold)
+}
